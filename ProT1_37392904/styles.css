@@ -1,0 +1,67 @@
+/*
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.destacado {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.descripción {
+  border: 2px solid #e2da36;
+  text-align: center;
+} */
+header {
+  background-color: #b3c20d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+section {
+  padding: 20px; /* espaciado para la sección de 20 pixeles */
+  text-align: justify;
+}
+footer {
+  background-color: #b3c20d; /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  max-width: 800px; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+  color: whitesmoke;
+}
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+  background-color: #0a0902;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #b9be1c;
+}
+img {
+  display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  max-width: 30%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+}
